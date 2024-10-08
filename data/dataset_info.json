@@ -79,6 +79,26 @@
       "rejected": "rejected"
     }
   },
+  "us_inc_synthetic_preference_en_75k": {
+    "hf_hub_url": "communityai/us-inc-synthetic-preference-en-75k-lmf",
+    "formatting": "sharegpt",
+    "ranking": true,
+    "columns": {
+      "messages": "conversations",
+      "chosen": "chosen",
+      "rejected": "rejected"
+    }
+  },
+  "us_inc_synthetic_preference_en_230k": {
+    "hf_hub_url": "communityai/us-inc-synthetic-preference-en-230k-lmf",
+    "formatting": "sharegpt",
+    "ranking": true,
+    "columns": {
+      "messages": "conversations",
+      "chosen": "chosen",
+      "rejected": "rejected"
+    }
+  },
   "us_inc_synthetic_preference_en_300k": {
     "hf_hub_url": "communityai/us-inc-synthetic-preference-en-300k-lmf",
     "formatting": "sharegpt",

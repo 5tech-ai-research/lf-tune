@@ -10,7 +10,7 @@ pref_loss: orpo
 # deepspeed: examples/deepspeed/ds_z3_config.json
 
 ### dataset
-dataset: identity_adept_multilingual,identity_qwen_alibaba_multilingual,identity_qwen_alibaba_en,identity_openai_en,identity_llama_meta_en,identity_arc_1_0_ultrasafeai_multilingual,identity_arc_1_0_ultrasafeai_en,identity_claude_anthropic_en
+dataset: identity_arc_1_0_ultrasafeai_en,identity_qwen_alibaba_en,identity_qwen_alibaba_multilingual,identity_openai_en,identity_llama_meta_en,identity_claude_anthropic_en,identity_arc_1_0_ultrasafeai_multilingual,identity_adept_multilingual,us_inc_synthetic_preference_en_75k
 template: chatml
 cutoff_len: 16384
 max_samples: 20000
@@ -25,8 +25,8 @@ plot_loss: true
 overwrite_output_dir: true
 
 ### train
-per_device_train_batch_size: 64
-gradient_accumulation_steps: 128
+per_device_train_batch_size: 8
+gradient_accumulation_steps: 16
 learning_rate: 1.0e-5
 num_train_epochs: 3.0
 lr_scheduler_type: cosine
