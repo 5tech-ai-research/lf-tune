@@ -1,4 +1,94 @@
 {
+  "identity_adept_multilingual": {
+    "hf_hub_url": "communityai/identity_adept-multilingual-v2-lmf",
+    "formatting": "sharegpt",
+    "ranking": true,
+    "columns": {
+      "messages": "conversations",
+      "chosen": "chosen",
+      "rejected": "rejected"
+    }
+  },
+  "identity_qwen_alibaba_multilingual": {
+    "hf_hub_url": "communityai/identity-qwen-alibaba-series-multilingual-v2-lmf",
+    "formatting": "sharegpt",
+    "ranking": true,
+    "columns": {
+      "messages": "conversations",
+      "chosen": "chosen",
+      "rejected": "rejected"
+    }
+  },
+  "identity_qwen_alibaba_en": {
+    "hf_hub_url": "communityai/identity-qwen-alibaba-series-en-v2-lmf",
+    "formatting": "sharegpt",
+    "ranking": true,
+    "columns": {
+      "messages": "conversations",
+      "chosen": "chosen",
+      "rejected": "rejected"
+    }
+  },
+  "identity_openai_en": {
+    "hf_hub_url": "communityai/identity-openai-en-v2-lmf",
+    "formatting": "sharegpt",
+    "ranking": true,
+    "columns": {
+      "messages": "conversations",
+      "chosen": "chosen",
+      "rejected": "rejected"
+    }
+  },
+  "identity_llama_meta_en": {
+    "hf_hub_url": "communityai/identity-llama-meta-en-v2-lmf",
+    "formatting": "sharegpt",
+    "ranking": true,
+    "columns": {
+      "messages": "conversations",
+      "chosen": "chosen",
+      "rejected": "rejected"
+    }
+  },
+  "identity_arc_1_0_ultrasafeai_multilingual": {
+    "hf_hub_url": "communityai/identity-arc-1.0-ultrasafeai-multilingual-v2-lmf",
+    "formatting": "sharegpt",
+    "ranking": true,
+    "columns": {
+      "messages": "conversations",
+      "chosen": "chosen",
+      "rejected": "rejected"
+    }
+  },
+  "identity_arc_1_0_ultrasafeai_en": {
+    "hf_hub_url": "communityai/identity-arc-1.0-ultrasafeai-en-v2-lmf",
+    "formatting": "sharegpt",
+    "ranking": true,
+    "columns": {
+      "messages": "conversations",
+      "chosen": "chosen",
+      "rejected": "rejected"
+    }
+  },
+  "identity_claude_anthropic_en": {
+    "hf_hub_url": "communityai/identity-claude-anthropic-en-v2-lmf",
+    "formatting": "sharegpt",
+    "ranking": true,
+    "columns": {
+      "messages": "conversations",
+      "chosen": "chosen",
+      "rejected": "rejected"
+    }
+  },
+  "us_inc_synthetic_preference_en_300k": {
+    "hf_hub_url": "communityai/us-inc-synthetic-preference-en-300k-lmf",
+    "formatting": "sharegpt",
+    "ranking": true,
+    "columns": {
+      "messages": "conversations",
+      "chosen": "chosen",
+      "rejected": "rejected"
+    }
+  },
   "identity": {
     "file_name": "identity.json"
   },
