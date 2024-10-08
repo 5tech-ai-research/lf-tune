@@ -1,16 +1,16 @@
 ### model
-model_name_or_path: Qwen/Qwen2.5-3B-Instruct
+model_name_or_path: Qwen/Qwen2.5-0.5B-Instruct
 
 ### method
-stage: orpo
+stage: dpo
 do_train: true
 finetuning_type: full
 pref_beta: 0.1
 pref_loss: orpo
-deepspeed: examples/deepspeed/ds_z2_config.json
+# deepspeed: examples/deepspeed/ds_z3_config.json
 
 ### dataset
-dataset: identity,alpaca_en_demo
+dataset: identity_adept_multilingual,identity_qwen_alibaba_multilingual,identity_qwen_alibaba_en,identity_openai_en,identity_llama_meta_en,identity_arc_1_0_ultrasafeai_multilingual,identity_arc_1_0_ultrasafeai_en,identity_claude_anthropic_en
 template: chatml
 cutoff_len: 16384
 max_samples: 20000
